@@ -8,7 +8,9 @@ function increment() {
 }
 
 function save() {
-    saveEl.innerText += count +"-";
+    saveEl.textContent += count +" - " ;
+    countEl.innerText = 0;
+    count = 0
 }
 
 
